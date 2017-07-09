@@ -11,7 +11,7 @@ import utils.CommonDrivers;
 
 public class Core {
 
-	public WebDriver driver=null;
+	public static WebDriver driver=null;
 	CommonDrivers commonDriver = new CommonDrivers();
 	@BeforeSuite
 	public void setUp()
