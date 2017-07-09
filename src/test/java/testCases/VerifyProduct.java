@@ -19,7 +19,7 @@ public class VerifyProduct extends Core{
 	
 	
 	@Test(dataProvider="excelData")
-	public void verifyPrice(String SNo, String productName, String productPrice, String productReview, String Status) throws InterruptedException
+	public void verifyPrice(String SNo, String productName, String productPrice, String productReview) throws InterruptedException
 	{
 		ProductDetails productDetails = null;
 		try
